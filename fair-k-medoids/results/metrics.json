@@ -1,0 +1,58 @@
+{
+  "normal_pam": {
+    "algorithm": "Normal PAM",
+    "total_cost": 16234.8812,
+    "cost_A": 18.0391,
+    "cost_B": 90.1924,
+    "fair_obj": 90.1924,
+    "group_cost_gap": 72.1533,
+    "n_swaps": 2,
+    "runtime_s": 0.0734,
+    "medoid_indices": [
+      108,
+      219
+    ],
+    "medoid_coords": [
+      [
+        -0.1081703948813475,
+        108.26562267509009
+      ],
+      [
+        89.04473956544638,
+        108.49077700163784
+      ]
+    ]
+  },
+  "fair_pam": {
+    "algorithm": "Fair-PAM",
+    "total_cost": 23614.6708,
+    "cost_A": 47.3645,
+    "cost_B": 46.6889,
+    "fair_obj": 47.3645,
+    "group_cost_gap": 0.6756,
+    "n_swaps": 2,
+    "runtime_s": 0.1155,
+    "medoid_indices": [
+      423,
+      351
+    ],
+    "medoid_coords": [
+      [
+        8.307766907186089,
+        28.615239290498078
+      ],
+      [
+        52.25490427494674,
+        111.24171873364148
+      ]
+    ]
+  },
+  "comparison": {
+    "pct_worst_group_improvement": 47.49,
+    "pct_total_cost_change": 45.46,
+    "normal_fair_obj": 90.1924,
+    "fair_pam_fair_obj": 47.3645,
+    "normal_total_cost": 16234.8812,
+    "fair_pam_total_cost": 23614.6708
+  }
+}

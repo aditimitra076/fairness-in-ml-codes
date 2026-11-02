@@ -1,0 +1,5 @@
+Algorithm,Cluster,Group_A_count,Group_B_count
+Normal PAM,1,201,50
+Normal PAM,2,199,50
+Fair-PAM,1,4,98
+Fair-PAM,2,396,2
